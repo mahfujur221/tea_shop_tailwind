@@ -30,11 +30,39 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
-
 </head>
 <body>
-  
+  <div class="min-h-screen bg-gray-100 flex flex-col">
+    <header class="bg-white shadow">
+      <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+        <h1 class="text-3xl font-bold text-gray-800">Tea Shop</h1>
+        <nav>
+          <ul class="flex space-x-4">
+            <li><a href="#" class="text-gray-600 hover:text-gray-800">Home</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-gray-800">Shop</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-gray-800">About</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-gray-800">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-  
+    <main class="flex-grow container mx-auto px-4 py-8">
+      <section class="mb-12">
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4">Our Teas</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          <!-- Tea Item -->
+          <div class="bg-white rounded-lg shadow p-4">
+            <img src="https://via.placeholder.com/150" alt="Green Tea" class="w-full h-40 object-cover rounded-md mb-4">
+            <h3 class="text-lg font-semibold text-gray-800">Green Tea</h3>
+            <p class="text-gray-600 mt-2">$10.00</p>
+            <button class="mt-4 bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Add to Cart</button>
+          </div>
+          <!-- Repeat similar blocks for other teas -->
+          <div class="bg-white rounded-lg shadow p-4">
+            <img src="https://via.placeholder.com/150" alt="Black Tea" class="w-full h-40 object-cover rounded-md mb-4">
+            <h3 class="text-lg font-semibold text-gray-800">Black Tea</h3>
+            <p class="text-gray-600 mt-2">$
+
 </body>
 </html>
